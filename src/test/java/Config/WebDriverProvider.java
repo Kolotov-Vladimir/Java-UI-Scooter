@@ -26,7 +26,7 @@ public class WebDriverProvider implements Supplier<Configuration> {
                 configuration.browser="firefox";
                 break;
             default:
-                throw new RuntimeException("Ты пидор");
+                throw new RuntimeException("Непредвиденная ошибка запуска браузера");
             }
             return configuration;
     }
