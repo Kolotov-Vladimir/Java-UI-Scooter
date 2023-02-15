@@ -13,7 +13,7 @@ public class OrderTest extends BaseTest {
     @BeforeEach
     public void setOrderPage() {
 
-        Selenide.open(orderPage.siteOrder);
+        Selenide.open(orderPage.SiteOrder);
     }
 
     @DisplayName("Оформление заказа, дата сегодня, период сутки, цвет Черный")

@@ -30,7 +30,7 @@ public class OrderPage {
             yesButton = $x(".//button[(@class = 'Button_Button__ra12g Button_Middle__1CSJM' and (text()='Да'))]"),
             finishModalWindow = $x(".//div[@class = 'Order_ModalHeader__3FDaJ']"),
             firstStation = $x(".//button[@value='1']");
-    public String siteOrder = "order";
+    public static final String SiteOrder = "order";
     GenerateUser generateUser = new GenerateUser();
 
     public OrderPage() {

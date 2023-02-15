@@ -22,7 +22,7 @@ public class ClickOrderButtonsMainPageTest extends BaseTest {
     @Test
     public void testClickOrderButton() {
         mainPage.clickOrderButton();
-        url().equals(config.getBaseUrl() + orderPage.siteOrder);
+        url().equals(config.getBaseUrl() + orderPage.SiteOrder);
     }
 
     @DisplayName("Нажатие на кнопку Заказать внизу")

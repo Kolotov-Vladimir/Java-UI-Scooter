@@ -13,7 +13,7 @@ public class ClickIconOrderPageTest extends BaseTest {
 
     @BeforeEach
     public void setOrderPage() {
-        Selenide.open(orderPage.siteOrder);
+        Selenide.open(orderPage.SiteOrder);
     }
 
     @DisplayName("Клик по иконке самоката и переход на главную страницу")
